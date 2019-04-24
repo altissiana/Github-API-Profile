@@ -15,15 +15,6 @@ class UserProfile extends Component {
         <img id="userPic" alt="userPic" src={this.props.user.avatar_url} />
         <h3>{this.props.user.name}</h3>
         <h4>{this.props.user.login}</h4>
-        <h5>
-          {/* <img alt="usersPic" src={users} /> {this.props.user.company} */}
-        </h5>
-        <h5>
-          {/* <img alt="mapMarkerPic" src={mapMarker} /> {this.props.user.location} */}
-        </h5>
-        <h5>
-          {/* <img alt="linkPic" src={linkPic} /> {this.props.user.html_url} */}
-        </h5>
       </div>
     );
   }

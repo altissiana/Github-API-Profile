@@ -92,8 +92,6 @@ code {
   margin-right: 4px;
 }
 
-/* --------- container -------------- */
-
 #container {
   width: 1000px;
   display: flex;
@@ -102,14 +100,8 @@ code {
   margin-top: 20px;
 }
 
-.userProfile {
-  width: 240px;
-}
-
-#userBigPic {
-  width: 100%;
-  margin-left: 0;
-  border-radius: 10px;
+#userPic {
+  margin-left: -400px;
 }
 
 .userProfile h3 {
@@ -122,21 +114,8 @@ code {
   font-size: 17px;
   font-weight: normal;
   color: rgb(91, 91, 91);
-  margin: 0px;
   margin-bottom: 30px;
-}
-
-.userProfile h5 {
-  color: rgb(91, 91, 91);
-  margin: 8px 0px;
-  font-weight: 600;
-}
-
-.userProfile h5 img {
-  opacity: 0.6;
-  width: 15px;
-  height: 15px;
-  margin-right: 5px;
+  margin-left: -400px;
 }
 
 .repoContainer {

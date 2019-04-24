@@ -11,7 +11,7 @@ import Main from "./Main";
 class App extends Component {
   render() {
     return (
-      <Provider>
+      <Provider store={store}>
         <Router>
           <Navbar />
           <div id="container">

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { getRepoData } from "../actions/actions";
-import { render } from "react-dom";
+
 import { connect } from "react-redux";
-// import moment from "moment";
+import moment from "moment";
 
 class Main extends Component {
   componentDidMount() {
@@ -69,7 +69,7 @@ class Main extends Component {
                     {repo.language}
                   </span>
                   <span id="updated">
-                    {/* Updated {moment(repo.updated_at).fromNow()} */}
+                    Updated {moment(repo.updated_at).fromNow()}
                   </span>
                 </div>
               </li>
